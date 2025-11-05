@@ -1,5 +1,6 @@
-import app from "#app";
-import db from "#db/client";
+import 'dotenv/config'; // auto loads .env -- tells Node to load .env before anything else runs
+import app from "./app.js";
+import db from "./db/client.js";
 
 const PORT = process.env.PORT ?? 3000;
 
